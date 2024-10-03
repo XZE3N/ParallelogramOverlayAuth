@@ -1,0 +1,155 @@
+:root {
+    /* Colors */
+    --background: #465f49;
+    --background-secondary: #101922;
+    --input: #95a895;
+    --icon: #696b6a;
+    --alt-text: #95999e;
+    --button-bg: #c5c9cc;
+    --button-text: #3e444c;
+    --first-decoration: #aaa57f;
+    --second-decoration: #517060;
+    --title: #192938;
+    --input-placeholder: #506053;
+
+    /* Fonts */
+    --title-font: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+body {
+    background: var(--background);
+    text-align: center;
+    overflow-x: hidden;
+}
+form {
+    background: var(--background-secondary);
+    width: 440px;
+    height: 300px;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-49%, -49%);
+    border-radius: 15px;
+}
+#pass {
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    border: 0;
+    background: var(--input);
+    padding: 24px;
+}
+#user {
+    margin-top: 95;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border: 0;
+    background: var(--input);
+    padding: 24px;
+}
+#userico {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: -10px;
+    color: var(--icon);
+}
+#passico {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: -10px;
+    color: var(--icon);
+}
+
+#createacc {
+    outline: none;
+    margin: none;
+    background: transparent;
+    border: none !important;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--alt-text);
+    margin-top: 12px;
+    margin-left: 35px;
+    text-decoration: none;
+    font-family: var(--title-font);
+}
+
+#login {
+    outline: none;
+    border: none;
+    width: 135;
+    height: 35;
+    color: var(--button-text);
+    font-weight: 600;
+    font-size: 14px;
+    background: var(--button-bg);
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#par {
+    margin: 20px;
+    width: 200px;
+    height: 110px;
+    display: inline-block;
+    background: var(--first-decoration);    
+    opacity: .9;
+    position: absolute;
+    transform: skewX(-55deg);
+    top: -215px;
+    margin-left: -165px;
+    text-align: center;
+}
+
+#par2 {
+    margin: 20px;
+    width: 120px;
+    height: 75px;
+    display: inline-block;
+    background: var(--second-decoration);    
+    opacity: .5;
+    position: absolute;
+    transform: skewX(-55deg);
+    margin-top: -195px;
+    margin-left: 33px;
+}
+
+#title-text {
+    font-size: 22px;
+    display: inline-block;
+    color: var(--title);
+    transform: skew(+55deg);
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-style: bold;
+    margin-top: 45px;
+}
+
+#wrapper {
+    position: relative;
+    top: 50%;
+      left: 50%;
+      transform: translate(-49%, -49%);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--input-placeholder);
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+    font-weight: var(--d, 400);
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--input-placeholder);
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--input-placeholder);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
