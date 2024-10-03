@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\create.css?">
+    <title>Create Account</title>
+
+    <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8efb70290.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form method="POST" action="create.html">
+            <i class="fas fa-user"></i>
+            <input type="text" name="user" id="user" placeholder="Username"><br>
+
+            <i class="fas fa-user"></i>
+            <input type="text" name="confirmuser" id="usercon" placeholder="Confirm Username"><br>
+
+            <i class="fas fa-lock"></i>
+            <input type="password" name="pass" id="pass" placeholder="Password"><br/>
+
+            <i class="fas fa-lock"></i>
+            <input type="password" name="confirmpass" id="passcon" placeholder="Confirm Password"><br/>
+
+            <i class="fas fa-key"></i>
+            <input type="text" name="invcode" id="invcode" placeholder="Invite Code"><br>
+
+            <a name="login" id="login" href="login.html">Sign In</a>
+            <input type="submit" name="submit" id="create" value="Go">
+        </form>
+        <div id="par"><h1 id="title-text">SIGN UP</h1></div> <br>
+        <div id="par2"></div> <br>
+    </div>
+</body>
+</html>

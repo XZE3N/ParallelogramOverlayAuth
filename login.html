@@ -1,0 +1,33 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\login.css?">
+    <title>Login</title>
+
+    <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8efb70290.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div id="wrapper">
+            <form method="POST" action="login.html">
+                <i class="fas fa-user" id="userico"></i>
+                <input type="text" name="user" id="user"placeholder="Username"><br/>
+
+                <i class="fas fa-lock" id="passico"></i>
+                <input type="password" name="pass" id="pass" placeholder="Password"><br/>
+
+                <a id="createacc" href="create.html">Create an account</a>
+                <input type="submit" name="submit" value="LOGIN" id="login">
+            </form>
+            <div id="par"><h1 id="title-text">USER LOGIN</h1></div> <br>
+            <div id="par2"></div> <br>
+        <div>
+    </body>
+</html>
+    
