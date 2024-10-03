@@ -5,7 +5,7 @@
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/XZE3N/ParallelogramOverlayAuth)
 ![GitHub contributors](https://img.shields.io/github/contributors/XZE3N/ParallelogramOverlayAuth)
 
-**ParallelogramOverlayAuth** is a minimalistic frontend project featuring a login and registration page, designed with pure HTML and CSS. The interface uses two overlayed paralelograms on top of the main form to create a unique and modern UI. JavaScript (with jQuery) is used to switch between the login and registration forms.
+**ParallelogramOverlayAuth** is a minimalistic frontend project featuring a login and registration page, designed with pure HTML and CSS. The interface uses two overlayed paralelograms on top of the main form to create a unique and modern UI.
 
 ## Project Structure
 
